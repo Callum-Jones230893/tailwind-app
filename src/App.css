@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #1e2939;
+  --color-primary-dark: #151d29;
+  --color-secondary: #355077;
+  --color-red-50: #550004;
+  --color-yellow-50: rgb(189, 163, 20);
+  
+  --color-backdrop: rgba(0, 0, 0, 0.500);
+
+  --backdrop-blur-xs: 2px;
+}
