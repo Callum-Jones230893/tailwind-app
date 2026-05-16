@@ -8,5 +8,7 @@ const GetBoss = async (): Promise<BossType[]> => {
 }
 
 export const bossData = await GetBoss()
-export const randomBoss: BossType = bossData[Math.floor(Math.random() * bossData.length)]
+export const randomBoss = (): BossType => {
+ return bossData[Math.floor(Math.random() * bossData.length)]
+} 
 
