@@ -8,6 +8,34 @@
   --color-yellow-50: rgb(189, 163, 20);
   
   --color-backdrop: rgba(0, 0, 0, 0.500);
+  --color-button: rgba(0, 0, 0, 0.750);
 
   --backdrop-blur-xs: 2px;
+
+  --font-display: "Mantinia", sans-serif;
 }
+
+@font-face {
+  font-family: "Mantinia";
+  src: url("/fonts/Mantinia.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  min-height: 100%;
+}
+
